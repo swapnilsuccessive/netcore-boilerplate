@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0-alpine AS base
 WORKDIR /app
 EXPOSE 8080
 
-LABEL org.opencontainers.image.authors="Łukasz Kurzyniec" \
+LABEL org.opencontainers.image.authors="Swapnil kumar" \
       org.opencontainers.image.title="HappyCode.NetCoreBoilerplate" \
       org.opencontainers.image.description="Simple API written in .NET 9."
 

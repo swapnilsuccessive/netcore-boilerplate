@@ -21,8 +21,8 @@ namespace HappyCode.NetCoreBoilerplate.Api.Infrastructure.OpenApi
                     document.Info.Description = $"Authorization: ApiKey {secretKey}";
                     document.Info.Contact = new OpenApiContact
                     {
-                        Name = "Łukasz Kurzyniec",
-                        Url = new Uri("https://kurzyniec.pl/"),
+                        Name = "Swapnil Kumar",
+                        Url = new Uri("https://google.com/"),
                     };
                     return Task.CompletedTask;
                 });
