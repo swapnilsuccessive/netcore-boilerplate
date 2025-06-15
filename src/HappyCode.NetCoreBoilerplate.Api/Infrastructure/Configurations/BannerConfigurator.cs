@@ -15,7 +15,7 @@ public static class BannerConfigurator
 | '_ \ / _ \ __/ __/ _ \| '__/ _ \___| '_ \ / _ \| | |/ _ \ '__| '_ \| |/ _` | __/ _ \
 | | | |  __/ || (_| (_) | | |  __/___| |_) | (_) | | |  __/ |  | |_) | | (_| | ||  __/
 |_| |_|\___|\__\___\___/|_|  \___|   |_.__/ \___/|_|_|\___|_|  | .__/|_|\__,_|\__\___|
-                                                               |_| {2}by Łukasz Kurzyniec
+                                                               |_| {2}by Swapnil Kumar
 {3}";
 
     public static void Print(bool withColors)
