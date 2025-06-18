@@ -56,6 +56,10 @@ namespace HappyCode.NetCoreBoilerplate.Api.Controllers
         public IActionResult GetNthString([FromBody] List<string> strings, [FromQuery] int n)
         {
             try{
+                if (n < 0 || n >= strings.Count)
+                {
+                    return BadRequest("Index out of range");
+                }
                 string result = strings[n];
                 return Ok(result);
             }
