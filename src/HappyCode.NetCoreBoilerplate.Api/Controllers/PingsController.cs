@@ -55,6 +55,10 @@ namespace HappyCode.NetCoreBoilerplate.Api.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult GetNthString([FromBody] List<string> strings, [FromQuery] int n)
         {
+            if (n < 0 || n >= strings.Count)
+            {
+                return BadRequest("Index out of range");
+            }
             try{
                 string result = strings[n];
                 return Ok(result);
